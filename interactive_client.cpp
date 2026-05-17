@@ -87,6 +87,7 @@ static void print_prompt() {
     std::cout << "> " << Color::RESET << std::flush;
 }
 
+
 // Обновляет множество подписок на основе строки ответа сервера
 // Возвращает true, если множество изменилось
 static bool update_subscriptions_from_line(const std::string& line) {
