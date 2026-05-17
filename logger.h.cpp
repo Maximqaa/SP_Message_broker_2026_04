@@ -66,6 +66,8 @@ public:
         std::cerr << oss.str() << std::flush;
     }
 
+
+
 private:
     Logger() : min_level_(LogLevel::INFO) {}
     LogLevel min_level_;
