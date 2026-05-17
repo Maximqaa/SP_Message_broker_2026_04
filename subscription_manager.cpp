@@ -6,6 +6,7 @@
 #include "subscription_manager.h"
 #include <stdexcept>
 #include <cstdio>
+
 #include <cstring>
 
 #ifdef USE_SQLITE
