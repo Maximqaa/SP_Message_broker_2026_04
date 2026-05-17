@@ -13,6 +13,7 @@
 #include <errno.h>
 #include <vector>
 
+
 static bool send_line(int fd, const std::string& line) {
     std::string data = line + "\n";
     ssize_t sent = send(fd, data.c_str(), data.size(), 0);
