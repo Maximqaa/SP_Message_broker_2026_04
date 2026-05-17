@@ -3,6 +3,7 @@ CXXFLAGS = -Wall -Wextra -std=c++17 -pthread
 LDFLAGS = -pthread
 LDLIBS =
 
+
 ifdef USE_SQLITE
     CXXFLAGS += -DUSE_SQLITE
     LDLIBS += -lsqlite3
